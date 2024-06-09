@@ -1,0 +1,40 @@
+.textHeader {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.addTaskWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.addTaskInput {
+  background: #1a1a40;
+  padding: 8px;
+  width: 30%;
+  border: 1px solid #e74c3c;
+}
+
+.addTaskInput:focus {
+  outline: none;
+}
+
+.addTaskInput::placeholder {
+  color: #ffffff4d;
+}
+
+.addTaskButton {
+  background: #e74c3c;
+  color: #1a1a40;
+  padding: 0 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.listToDoWrapper {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 64px; */
+  margin-top: 24px;
+}
